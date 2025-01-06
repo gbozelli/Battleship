@@ -1,0 +1,39 @@
+body{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.grid1{
+  display: grid;
+  grid-template-rows: repeat(10, 40px);
+  background-color:black;
+  gap:4px;
+}
+.grid1>div{
+  display: grid;
+  grid-template-columns: repeat(10, 40px);
+  gap: 4px;
+}
+
+.grid1>div>div{
+  background-color: rgb(129, 129, 129);
+}
+
+.grid2 {
+  display: grid;
+  grid-template-rows: repeat(10, 40px);
+  background-color: black;
+  gap: 4px;
+}
+
+.grid2>div {
+  display: grid;
+  grid-template-columns: repeat(10, 40px);
+  gap: 4px;
+}
+
+.grid2>div>div {
+  background-color: rgb(129, 129, 129);
+}
